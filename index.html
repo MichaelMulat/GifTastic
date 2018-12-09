@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="row justify-content-between">
+            <div class="col-md-7 col-sm-12">
+
+                <h1 class="display-4">
+                    <span><img width="60px" src="assets/images/superhero-gif.gif"></span>
+                    Captain GifTastic
+                </h1>
+            </div>
+            <div class="col-md-4 my-auto col-sm-12">
+
+                <div class="input-group my-auto">
+                    <div class="input-group-prepend">
+                        <button id="add-hero" class="btn" type="button"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <input id="hero-input" type="text" class="form-control" placeholder="Add a Superhero">
+
+                </div>
+
+            </div>
+        </header>
+        <div class="row" id="hero-buttons">
+
+        </div>
+
+        <div class="row" id="gif-view">
+            <h3>Click the buttons above to find some gifs.</h3>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

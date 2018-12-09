@@ -1,0 +1,47 @@
+body {
+    background-color: beige;
+}
+header {
+    padding: 30px 10px 10px;
+    background-color:#9c27b0;
+    border-bottom: white solid 2px;
+}
+
+header h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+}
+
+.container {
+    background-color: #fff;
+}
+/* Hero Buttons */
+
+#hero-buttons {
+    padding: 10px 20px;
+}
+.hero-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: #ff9800;
+    padding: 10px 15px;
+    margin: 4px 6px 4px 0px;
+}
+
+.hero-button:hover{
+    background-color: #1f0013;
+}
+
+#add-hero {
+    background-color: #8bc34a;
+    color: white;
+}
+
+#gif-view{
+    padding: 10px 20px;
+
+    }
